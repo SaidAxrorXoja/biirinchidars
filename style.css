@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#slides{
+    width: 100%;  
+  height: 200px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+button img{
+  width: 100px;
+  height: 40px;
+  border: none;
+}
+  #btnpr{
+    top:25%;
+    position: absolute;
+    z-index: 10;
+    border: none;
+    background-color: transparent;
+  }
+  #btnnext{
+    top:25%;
+    left: 93%;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+  }
+    #slidewov{
+      position: absolute;
+      width:500%;
+      height:100%;
+      display: flex;
+      overflow: hidden;
+  }
+  #slidewov .slide img{
+        width: 100%;
+        height: 100%;
+
+    }
+    .slide{
+        width:20%;
+    }
+    .navb{
+      width: 100%;
+      height: 80px;
+      background-color: #131921;
+      }
+      .navb ul li{
+        width: 100px;
+        height: 20px;
+        list-style-type: none;
+      }
+      .navb ul{
+        display: flex;
+      }
+      li:hover{
+        cursor: pointer;
+      }
+      .navb ul .lir1{
+  color: white;
+  height: 65px;
+  margin-left: 80px;
+  width: 120px;
+      }
+      .navb ul .lir2{
+        color: white;
+        height: 65px;
+        margin-left: 30px;
+        width: 120px;
+            }
+      .navb ul .lir1 p,.navb ul .lir2 p{
+        margin-top: 15px;
+        
+      }
+      .navb ul .lir1:hover{
+        border: 1px solid white;
+        border-radius: 3px;
+      }
+      .navb ul .lir2:hover{
+        border: 1px solid white;
+        border-radius: 3px;
+      }
+      .navb ul .divuz:hover{
+border: 1px solid white;
+      }
+  .navb ul .divuz .p1{
+    color:rgb(255, 255, 255); 
+position: absolute;
+
+  }
+  .navb ul .divuz .p2{
+    color:rgb(255, 255, 255);
+    margin-bottom: 30px;
+    top: 15px;
+    font-family: bold;
+    font-size: 1.2em;
+    position: absolute;
+    
+  }
+      .navb2 ul{
+        display: flex;
+        background-color: #232f3e;
+        height: 40px;
+      }
+      .navb2{
+        height: 40px;
+      }
+      .navb2 li{
+        width: 150px;
+        height: 30px;
+ list-style-type: none;
+color: white;
+
+margin-top: 5px;
+      }
+      .navb ul li:hover>img{
+        border: 1px solid white;
+        border-radius: 5px;
+      }
+      .navb2 .li1{
+        width: 70px;
+        height: 30px;
+      }
+      .navb2 .li4{
+        width: 90px;
+        height: 30px;
+      }
+      .navb2 li:hover{
+border: 1px solid;
+cursor: pointer;
+border-radius: 7px;
+      }
+      .navb2 .li5{
+        width: 50px;
+        height: 30px;
+      }
+      .navb2 .li6{
+        width: 50px;
+        height: 30px;
+      }
+      .divrek1{
+        height: 400px;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 33px;
+      }
+      .divrek1 div ul li{
+        list-style-type: none;
+        background-color: #fff;
+        width: 340px;
+        padding-left: 20px;
+        margin-left: -12px;
+      }
+      .divrek1 div ul li img{
+        width: 300px;
+        height: 300px;
+      }
+      .divrek1 div{
+        width: 100%;
+      }
+      .divrek1 div ul .li1{
+        height: 50px;
+        font-size: 1.5em;
+      }
+      .divrek1 div ul .li3{
+        height: 50px;
+      }
+      .divrek1 div ul .li3 a{
+text-decoration: none;
+color: #58a2af;
+      }
+      .divrek1 div ul .li3 a:hover{
+        text-decoration: underline;
+              }
+              .divrek1 .divrk4 ul .li4 .btn{
+background-color: rgb(237, 213, 0);
+border-radius: 6px;
+width: 300px;
+margin-bottom: 4px;
+              }
+              #slides1{
+                width: 97.5%;  
+              height: 200px;
+                display: flex;
+                overflow: hidden;
+                position: relative;
+                top: 30px;
+                left: 20px;
+              }
+            
+              #btnpr1{
+                top:32%;
+                position: absolute;
+                z-index: 10;
+                border: none;
+                background-color: transparent;
+              }
+              #btnnext1{
+                top:32%;
+                left: 93%;
+                position: absolute;
+                border: none;
+                background-color: transparent;
+              }
+                #slidewov1{
+                  position: absolute;
+                  width:500%;
+                  height:100%;
+                  display: flex;
+                  overflow: hidden;
+                  background-color: #fff;
+              }
+              #slidewov1 .slide1 img{
+                    width: 100%;
+                    height: 100%;
+                }
+                .slide1{
+                    width:3.1%;
+                    margin-left: 20px;
+                }
+                #slides1 #slidewov1 .slide1 img:hover{
+                  cursor: pointer;
+                }
